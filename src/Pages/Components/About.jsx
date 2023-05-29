@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <div className='border text-center mb-14 py-4 lg:mx-20 mx-10 lg:px-40'>
+            <div className='border text-center card bg-slate-200 mb-14 py-4 lg:mx-20 mx-10 lg:px-40'>
                 <div className='card border-0 w-lg-75 px-5 mx-auto '>
                     <h1 className='font-bold  text-2xl mb-3'>ABOUT US</h1>
                     <p className='fw-normal mb-5'>SOLUTYA is an organization of highly expert and talented people for experience the excellent standard that we cherish. Solutya comes with the promise of understanding the necessity and delivering it most satisfactorily.
@@ -11,7 +11,7 @@ const About = () => {
                     </p>
                 </div>
                 <button
-                    className='btn mb-2 bg-orange-500 mt-1'>LEARN MORE
+                    className='btn mx-auto w-36 mb-2 bg-orange-500 mt-1'>LEARN MORE
                 </button>
 
             </div>
